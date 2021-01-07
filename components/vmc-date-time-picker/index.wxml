@@ -1,0 +1,12 @@
+<picker
+        header-text="{{ headerText }}"
+        mode="multiSelector"
+        disabled="{{ disabled }}"
+        range="{{ range }}"
+        range-key="{{ rangeKey }}"
+        value="{{ rangeValue }}"
+        bindcancel="bindCancel"
+        bindchange="bindChange"
+        bindcolumnchange="bindColumnChange">
+    <slot/>
+</picker>

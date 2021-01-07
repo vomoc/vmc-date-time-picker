@@ -1,0 +1,28 @@
+.date-time-picker {
+  margin: 30rpx;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.date-time-picker .handle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 90rpx;
+  font-size: 28rpx;
+  color: #333333;
+}
+
+.date-time-picker .handle>.placeholder {
+  font-size: 28rpx;
+  color: #979797;
+}
+
+.date-time-picker .handle>.icon {
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 20rpx;
+}

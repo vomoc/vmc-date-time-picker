@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "vmc-date-time-picker": "/components/vmc-date-time-picker/index"
+  }
+}

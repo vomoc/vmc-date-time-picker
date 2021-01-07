@@ -1,0 +1,8 @@
+<vmc-date-time-picker class="date-time-picker" value="{{ dateTime }}" dateTimeRange="{{ dateTimeRange }}"
+  bindchange="bindDateTimeChange">
+  <view class="handle">
+    <block wx:if="{{ dateTime }}">{{ dateTime }} </block>
+    <block wx:else><text class="placeholder">请选择</text></block>
+    <image src="{{ dateSelectorIcon }}" class="icon"></image>
+  </view>
+</vmc-date-time-picker>
